@@ -116,7 +116,7 @@ GOTO :endInstall
 ::Installation de TOUT.
 :InstallAll
 CALL :moulinage
-winget install --id=Zoom.Zoom -e  && winget install --id=Google.Chrome -e  && winget install --id=Microsoft.Teams -e  && winget install --id=PuTTY.PuTTY -e  && winget install --id=GitHub.GitHubDesktop -e  && winget install --id=Discord.Discord -e  && winget install --id=SlackTechnologies.Slack -e  && winget install --id=VideoLAN.VLC -e  && winget install --id=Apache.OpenOffice -e 
+winget install --id=Zoom.Zoom -e  & winget install --id=Google.Chrome -e  & winget install --id=Microsoft.Teams -e  & winget install --id=PuTTY.PuTTY -e  & winget install --id=GitHub.GitHubDesktop -e  & winget install --id=Discord.Discord -e  & winget install --id=SlackTechnologies.Slack -e  & winget install --id=VideoLAN.VLC -e  & winget install --id=Apache.OpenOffice -e 
 CALL :finito
 GOTO :endInstall
 
